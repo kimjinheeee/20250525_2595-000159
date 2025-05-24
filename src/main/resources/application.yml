@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: notification-front-server
+
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+        default_batch_fetch_size: 100
+        show_sql: true
+        jdbc:
+          batch_size: 1000
+        order_updates: true
+        order_inserts: true
+    open-in-view: false
+
+feign:
+  client:
+    config:
+      kakaoNotificationClient:
+        loggerLevel: FULL
+
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+    disable-swagger-default-url: true
+    display-request-duration: true
+  api-docs:
+    path: /api-docs
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+  paths-to-match:
+    - /notifications/**
+
+logging:
+  level:
+    com.example.notification: DEBUG
+    org.hibernate.SQL: debug
+    com.example.notification.client.KakaoNotificationClient: DEBUG
+
+notification:
+  api:
+    sms:
+      url: http://localhost:8090/send/sms
+    kakao:
+      url: http://localhost:8090/send/kakaotalk
+    email:
+      url: http://localhost:8090/send/email
