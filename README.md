@@ -62,7 +62,7 @@ com
    - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
 - **실행 방법**
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
-   - [swagger](http://localhost:8080/swagger-ui/index.html) 에서 try it out 으로 알림 등록/조회 테스트
+   - .jar 실행 후 [swagger](http://localhost:8080/swagger-ui/index.html) 에서 try it out 으로 알림 등록/조회 테스트
 - **사전 조건**
    - H2 데이터베이스 기동 중 상태
    - notification-sender-server 서비스 기동 중 상태
