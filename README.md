@@ -22,7 +22,7 @@
    - 빠른 응답을 위해 캐싱(Caffeine) 적용하여 빠른 응답 제공
      
 ## 시스템 구조
-<img width="616" alt="image" src="https://github.com/user-attachments/assets/8fb46cfb-2c49-496f-b924-fedb17b19a9c" />
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/8c189cb6-a4da-4317-a191-e0f5356f49b3" />
   
 ## 디렉토리 구조
 ```plaintext
@@ -64,14 +64,18 @@ com
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
  
 ## 결과 화면 - 알림 즉시(IMMEDIATE) 발송
-- **20:35**
-  <img width="909" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/89e760fa-080f-497a-a5a7-d343760e9ef9" />
+- **12:00**
+<img width="812" alt="Pasted Graphic 29" src="https://github.com/user-attachments/assets/86279052-cff4-4288-893c-456774999f8b" />
+<img width="906" alt="Pasted Graphic 24" src="https://github.com/user-attachments/assets/c7031ad2-a5d4-462b-a6c4-ff9da95490ee" />
 
-- **20:36, 20:37**
-  <img width="890" alt="Pasted Graphic 7" src="https://github.com/user-attachments/assets/ea751d47-3ea4-43ab-9a98-38246487a747" />
 
-- **20:38**
-  <img width="921" alt="image" src="https://github.com/user-attachments/assets/8d6d495b-9bad-4ddf-8f31-e995e7bd5bff" />
+- **12:01**
+<img width="901" alt="Pasted Graphic 25" src="https://github.com/user-attachments/assets/1908c172-3215-44f6-8c19-8b622609279c" />
+
+
+- **12:02**
+<img width="902" alt="Pasted Graphic 27" src="https://github.com/user-attachments/assets/5d547a60-d7a1-45ca-897f-a878a63a10ff" />
+
 
 
 
