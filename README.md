@@ -60,7 +60,7 @@ com
 ## Executable jar
 - **빌드 결과물**
    - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
-- **실핼 방법**
+- **실행 방법**
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
 - **사전 조건**
    - H2 데이터베이스 기동 중 상태
