@@ -59,7 +59,7 @@ com
 
 ## Executable jar
 - **빌드 결과물**
-   - [https://github.com/kimjinheeee/20250524_2595-000159/tree/main/build/libs](https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT)
+   - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
 - **실핼 방법**
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
  
