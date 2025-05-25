@@ -4,6 +4,20 @@
 ## 지원자 정보
 - 2595-000159_김진희_서버개발자-AI서비스
 
+## API 명세
+- **API의 전체 명세와 테스트 인터페이스를 제공합니다.**
+   - http://localhost:8080/swagger-ui/index.html
+
+
+## Executable jar
+- **빌드 결과물 Download link**
+   - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
+- **실행 방법**
+   - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
+   - .jar 실행 후 [swagger](http://localhost:8080/swagger-ui/index.html) 에서 try it out 으로 알림 등록/조회 테스트
+   - **사전 조건**
+      - H2 데이터베이스 기동 중 상태
+      - notification-sender-server 서비스 기동 중 상태
 
 ## 프로젝트 환경
 - Java 17
@@ -52,20 +66,6 @@ com
 - Caffeine
 - OkHttp
 
-## API 명세
-- **API의 전체 명세와 테스트 인터페이스를 제공합니다.**
-   - http://localhost:8080/swagger-ui/index.html
-
-
-## Executable jar
-- **빌드 결과물 Download link**
-   - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
-- **실행 방법**
-   - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
-   - .jar 실행 후 [swagger](http://localhost:8080/swagger-ui/index.html) 에서 try it out 으로 알림 등록/조회 테스트
-   - **사전 조건**
-      - H2 데이터베이스 기동 중 상태
-      - notification-sender-server 서비스 기동 중 상태
  
 ## 결과 화면 - 알림 즉시(IMMEDIATE) 발송
 - **12:00**
