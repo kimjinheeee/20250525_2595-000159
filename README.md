@@ -58,7 +58,7 @@ com
 
 
 ## Executable jar
-- **빌드 결과물**
+- **빌드 결과물 Download link**
    - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
 - **실행 방법**
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
