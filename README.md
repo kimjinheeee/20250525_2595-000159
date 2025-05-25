@@ -65,7 +65,6 @@ com
  
 ## 결과 화면 - 알림 즉시(IMMEDIATE) 발송
 - **12:00**
-<img width="812" alt="Pasted Graphic 29" src="https://github.com/user-attachments/assets/86279052-cff4-4288-893c-456774999f8b" />
 <img width="906" alt="Pasted Graphic 24" src="https://github.com/user-attachments/assets/c7031ad2-a5d4-462b-a6c4-ff9da95490ee" />
 
 
