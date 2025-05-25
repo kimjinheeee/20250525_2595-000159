@@ -11,7 +11,7 @@
 
 ## Executable jar
 - **빌드 결과물 Download link**
-   - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
+   - https://github.com/kimjinheeee/20250525_2595-000159/releases/tag/v0.0.1-SNAPSHOT
 - **실행 방법**
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
    - .jar 실행 후 [swagger](http://localhost:8080/swagger-ui/index.html) 에서 try it out 으로 알림 등록/조회 테스트
