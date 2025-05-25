@@ -62,7 +62,7 @@ com
    - https://github.com/kimjinheeee/notification-front-server/releases/tag/v0.0.1-SNAPSHOT
 - **실핼 방법**
    - $ java -jar notification-front-server-0.0.1-SNAPSHOT.jar
-- ## 사전 조건
+- **사전 조건**
    - H2 데이터베이스 기동 중 상태
    - notification-server-sender 서비스 기동 중 상태
  
