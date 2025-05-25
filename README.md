@@ -65,7 +65,7 @@ com
    - [swagger](http://localhost:8080/swagger-ui/index.html) 에서 try it out 으로 알림 등록/조회 테스트
 - **사전 조건**
    - H2 데이터베이스 기동 중 상태
-   - notification-server-sender 서비스 기동 중 상태
+   - notification-sender-server 서비스 기동 중 상태
  
 ## 결과 화면 - 알림 즉시(IMMEDIATE) 발송
 - **12:00**
