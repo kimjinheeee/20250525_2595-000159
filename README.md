@@ -1,9 +1,5 @@
 # 알림 Front 서버 
 
-
-## 지원자 정보
-- 2595-000159_김진희_서버개발자-AI서비스
-
 ## API 명세
 - **API의 전체 명세와 테스트 인터페이스를 제공합니다.**
    - http://localhost:8080/swagger-ui/index.html
